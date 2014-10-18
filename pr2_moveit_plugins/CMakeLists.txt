@@ -5,6 +5,7 @@ if(NOT CMAKE_CONFIGURATION_TYPES AND NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Release)
 endif()
 
+find_package(cmake_modules REQUIRED)
 find_package(Eigen REQUIRED)
 find_package(Boost REQUIRED thread)
 
